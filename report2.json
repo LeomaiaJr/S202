@@ -1,0 +1,63 @@
+[
+  {
+    "assunto": "Matematica Discreta",
+    "professor": {
+      "nome": "Marcelo"
+    },
+    "alunos": [
+      {
+        "nome": "Pedro"
+      },
+      {
+        "nome": "Jonas"
+      },
+      {
+        "nome": "Arthur"
+      },
+      {
+        "nome": "Matheus"
+      }
+    ]
+  },
+  {
+    "assunto": "Algebra",
+    "professor": {
+      "nome": "Soned"
+    },
+    "alunos": [
+      {
+        "nome": "Pedro"
+      },
+      {
+        "nome": "Jonas"
+      },
+      {
+        "nome": "Arthur"
+      },
+      {
+        "nome": "Matheus"
+      }
+    ]
+  },
+
+  {
+    "assunto": "Calculo II",
+    "professor": {
+      "nome": "Estevan"
+    },
+    "alunos": [
+      {
+        "nome": "Pedro"
+      },
+      {
+        "nome": "Jonas"
+      },
+      {
+        "nome": "Arthur"
+      },
+      {
+        "nome": "Matheus"
+      }
+    ]
+  }
+]
