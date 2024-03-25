@@ -1,0 +1,41 @@
+{
+    "$sonSchema":{
+      "bsonType": "array",
+      "minItems": 1,
+      "items": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "titulo",
+          "autor",
+          "ano",
+          "preco"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "int",
+            "description": "deve ser um inteiro e é obrigatório"
+          },
+          "titulo": {
+            "bsonType": "string",
+            "description": "deve ser uma string e é obrigatório"
+          },
+          "autor": {
+            "bsonType": "string",
+            "description": "deve ser uma string e é obrigatório"
+          },
+          "ano": {
+            "bsonType": "int",
+            "minimum": 0,
+            "maximum": 2024,
+            "description": "deve ser um inteiro entre [0, 2024] e é obrigatório"
+          },
+          "preco": {
+            "bsonType": "double",
+            "description": "deve ser um double e é obrigatório"
+          }
+        }
+      }
+    }
+  }
+  
